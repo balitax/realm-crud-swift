@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F9B8B9DFA57DCEE9DE6CF55 /* Pods_TODOGUS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E040CBA144B0322B0E4A95 /* Pods_TODOGUS.framework */; };
+		B9001E271C631E84002530D1 /* Dataku.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9001E261C631E84002530D1 /* Dataku.swift */; };
+		B9001E2D1C632B87002530D1 /* DatakuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9001E2C1C632B87002530D1 /* DatakuCell.swift */; };
+		B9A0F30F1C631B81003F6469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0F30E1C631B81003F6469 /* AppDelegate.swift */; };
+		B9A0F3111C631B81003F6469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0F3101C631B81003F6469 /* ViewController.swift */; };
+		B9A0F3141C631B81003F6469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9A0F3121C631B81003F6469 /* Main.storyboard */; };
+		B9A0F3161C631B81003F6469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A0F3151C631B81003F6469 /* Assets.xcassets */; };
+		B9A0F3191C631B81003F6469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9A0F3171C631B81003F6469 /* LaunchScreen.storyboard */; };
+		B9A0F3241C631B81003F6469 /* TODOGUSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0F3231C631B81003F6469 /* TODOGUSTests.swift */; };
+		B9A0F32F1C631B81003F6469 /* TODOGUSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0F32E1C631B81003F6469 /* TODOGUSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9A0F3201C631B81003F6469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9A0F3031C631B81003F6469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9A0F30A1C631B81003F6469;
+			remoteInfo = TODOGUS;
+		};
+		B9A0F32B1C631B81003F6469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9A0F3031C631B81003F6469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9A0F30A1C631B81003F6469;
+			remoteInfo = TODOGUS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1643AEE986CFEB826B6B79D0 /* Pods-TODOGUS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOGUS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TODOGUS/Pods-TODOGUS.debug.xcconfig"; sourceTree = "<group>"; };
+		53E40A88D3435FEB79AF6CD0 /* Pods-TODOGUS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOGUS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TODOGUS/Pods-TODOGUS.release.xcconfig"; sourceTree = "<group>"; };
+		B9001E261C631E84002530D1 /* Dataku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dataku.swift; path = Model/Dataku.swift; sourceTree = "<group>"; };
+		B9001E2C1C632B87002530D1 /* DatakuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatakuCell.swift; path = Cell/DatakuCell.swift; sourceTree = "<group>"; };
+		B9A0F30B1C631B81003F6469 /* TODOGUS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODOGUS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A0F30E1C631B81003F6469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9A0F3101C631B81003F6469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9A0F3131C631B81003F6469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9A0F3151C631B81003F6469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9A0F3181C631B81003F6469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9A0F31A1C631B81003F6469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9A0F31F1C631B81003F6469 /* TODOGUSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODOGUSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A0F3231C631B81003F6469 /* TODOGUSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOGUSTests.swift; sourceTree = "<group>"; };
+		B9A0F3251C631B81003F6469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9A0F32A1C631B81003F6469 /* TODOGUSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODOGUSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A0F32E1C631B81003F6469 /* TODOGUSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOGUSUITests.swift; sourceTree = "<group>"; };
+		B9A0F3301C631B81003F6469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E040CBA144B0322B0E4A95 /* Pods_TODOGUS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TODOGUS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9A0F3081C631B81003F6469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9B8B9DFA57DCEE9DE6CF55 /* Pods_TODOGUS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A0F31C1C631B81003F6469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A0F3271C631B81003F6469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E147CFC192CB82ADC8175E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1643AEE986CFEB826B6B79D0 /* Pods-TODOGUS.debug.xcconfig */,
+				53E40A88D3435FEB79AF6CD0 /* Pods-TODOGUS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86E964CBAD89E697218C2FFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E040CBA144B0322B0E4A95 /* Pods_TODOGUS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9001E281C631E89002530D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9001E261C631E84002530D1 /* Dataku.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B9001E2B1C632B62002530D1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B9001E2C1C632B87002530D1 /* DatakuCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		B9A0F3021C631B81003F6469 = {
+			isa = PBXGroup;
+			children = (
+				B9A0F30D1C631B81003F6469 /* TODOGUS */,
+				B9A0F3221C631B81003F6469 /* TODOGUSTests */,
+				B9A0F32D1C631B81003F6469 /* TODOGUSUITests */,
+				B9A0F30C1C631B81003F6469 /* Products */,
+				33E147CFC192CB82ADC8175E /* Pods */,
+				86E964CBAD89E697218C2FFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9A0F30C1C631B81003F6469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9A0F30B1C631B81003F6469 /* TODOGUS.app */,
+				B9A0F31F1C631B81003F6469 /* TODOGUSTests.xctest */,
+				B9A0F32A1C631B81003F6469 /* TODOGUSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9A0F30D1C631B81003F6469 /* TODOGUS */ = {
+			isa = PBXGroup;
+			children = (
+				B9001E2B1C632B62002530D1 /* Cell */,
+				B9001E281C631E89002530D1 /* Model */,
+				B9A0F30E1C631B81003F6469 /* AppDelegate.swift */,
+				B9A0F3101C631B81003F6469 /* ViewController.swift */,
+				B9A0F3121C631B81003F6469 /* Main.storyboard */,
+				B9A0F3151C631B81003F6469 /* Assets.xcassets */,
+				B9A0F3171C631B81003F6469 /* LaunchScreen.storyboard */,
+				B9A0F31A1C631B81003F6469 /* Info.plist */,
+			);
+			path = TODOGUS;
+			sourceTree = "<group>";
+		};
+		B9A0F3221C631B81003F6469 /* TODOGUSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9A0F3231C631B81003F6469 /* TODOGUSTests.swift */,
+				B9A0F3251C631B81003F6469 /* Info.plist */,
+			);
+			path = TODOGUSTests;
+			sourceTree = "<group>";
+		};
+		B9A0F32D1C631B81003F6469 /* TODOGUSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9A0F32E1C631B81003F6469 /* TODOGUSUITests.swift */,
+				B9A0F3301C631B81003F6469 /* Info.plist */,
+			);
+			path = TODOGUSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9A0F30A1C631B81003F6469 /* TODOGUS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A0F3331C631B81003F6469 /* Build configuration list for PBXNativeTarget "TODOGUS" */;
+			buildPhases = (
+				2F2054A4C6FC51A1E7E0A032 /* Check Pods Manifest.lock */,
+				B9A0F3071C631B81003F6469 /* Sources */,
+				B9A0F3081C631B81003F6469 /* Frameworks */,
+				B9A0F3091C631B81003F6469 /* Resources */,
+				4E4E0C3592659650117468F3 /* Embed Pods Frameworks */,
+				6085933F4F7CD8AE6FC5F814 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TODOGUS;
+			productName = TODOGUS;
+			productReference = B9A0F30B1C631B81003F6469 /* TODOGUS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9A0F31E1C631B81003F6469 /* TODOGUSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A0F3361C631B81003F6469 /* Build configuration list for PBXNativeTarget "TODOGUSTests" */;
+			buildPhases = (
+				B9A0F31B1C631B81003F6469 /* Sources */,
+				B9A0F31C1C631B81003F6469 /* Frameworks */,
+				B9A0F31D1C631B81003F6469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9A0F3211C631B81003F6469 /* PBXTargetDependency */,
+			);
+			name = TODOGUSTests;
+			productName = TODOGUSTests;
+			productReference = B9A0F31F1C631B81003F6469 /* TODOGUSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9A0F3291C631B81003F6469 /* TODOGUSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A0F3391C631B81003F6469 /* Build configuration list for PBXNativeTarget "TODOGUSUITests" */;
+			buildPhases = (
+				B9A0F3261C631B81003F6469 /* Sources */,
+				B9A0F3271C631B81003F6469 /* Frameworks */,
+				B9A0F3281C631B81003F6469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9A0F32C1C631B81003F6469 /* PBXTargetDependency */,
+			);
+			name = TODOGUSUITests;
+			productName = TODOGUSUITests;
+			productReference = B9A0F32A1C631B81003F6469 /* TODOGUSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9A0F3031C631B81003F6469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Agus Cahyono";
+				TargetAttributes = {
+					B9A0F30A1C631B81003F6469 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B9A0F31E1C631B81003F6469 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B9A0F30A1C631B81003F6469;
+					};
+					B9A0F3291C631B81003F6469 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B9A0F30A1C631B81003F6469;
+					};
+				};
+			};
+			buildConfigurationList = B9A0F3061C631B81003F6469 /* Build configuration list for PBXProject "TODOGUS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9A0F3021C631B81003F6469;
+			productRefGroup = B9A0F30C1C631B81003F6469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9A0F30A1C631B81003F6469 /* TODOGUS */,
+				B9A0F31E1C631B81003F6469 /* TODOGUSTests */,
+				B9A0F3291C631B81003F6469 /* TODOGUSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9A0F3091C631B81003F6469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A0F3191C631B81003F6469 /* LaunchScreen.storyboard in Resources */,
+				B9A0F3161C631B81003F6469 /* Assets.xcassets in Resources */,
+				B9A0F3141C631B81003F6469 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A0F31D1C631B81003F6469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A0F3281C631B81003F6469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F2054A4C6FC51A1E7E0A032 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4E0C3592659650117468F3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TODOGUS/Pods-TODOGUS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6085933F4F7CD8AE6FC5F814 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TODOGUS/Pods-TODOGUS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9A0F3071C631B81003F6469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A0F3111C631B81003F6469 /* ViewController.swift in Sources */,
+				B9001E2D1C632B87002530D1 /* DatakuCell.swift in Sources */,
+				B9001E271C631E84002530D1 /* Dataku.swift in Sources */,
+				B9A0F30F1C631B81003F6469 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A0F31B1C631B81003F6469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A0F3241C631B81003F6469 /* TODOGUSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A0F3261C631B81003F6469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A0F32F1C631B81003F6469 /* TODOGUSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9A0F3211C631B81003F6469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9A0F30A1C631B81003F6469 /* TODOGUS */;
+			targetProxy = B9A0F3201C631B81003F6469 /* PBXContainerItemProxy */;
+		};
+		B9A0F32C1C631B81003F6469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9A0F30A1C631B81003F6469 /* TODOGUS */;
+			targetProxy = B9A0F32B1C631B81003F6469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9A0F3121C631B81003F6469 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9A0F3131C631B81003F6469 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9A0F3171C631B81003F6469 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9A0F3181C631B81003F6469 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9A0F3311C631B81003F6469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9A0F3321C631B81003F6469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9A0F3341C631B81003F6469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1643AEE986CFEB826B6B79D0 /* Pods-TODOGUS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TODOGUS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopanda.TODOGUS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9A0F3351C631B81003F6469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E40A88D3435FEB79AF6CD0 /* Pods-TODOGUS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TODOGUS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopanda.TODOGUS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9A0F3371C631B81003F6469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TODOGUSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopanda.TODOGUSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TODOGUS.app/TODOGUS";
+			};
+			name = Debug;
+		};
+		B9A0F3381C631B81003F6469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TODOGUSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopanda.TODOGUSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TODOGUS.app/TODOGUS";
+			};
+			name = Release;
+		};
+		B9A0F33A1C631B81003F6469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TODOGUSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopanda.TODOGUSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TODOGUS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B9A0F33B1C631B81003F6469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TODOGUSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopanda.TODOGUSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TODOGUS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9A0F3061C631B81003F6469 /* Build configuration list for PBXProject "TODOGUS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A0F3311C631B81003F6469 /* Debug */,
+				B9A0F3321C631B81003F6469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A0F3331C631B81003F6469 /* Build configuration list for PBXNativeTarget "TODOGUS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A0F3341C631B81003F6469 /* Debug */,
+				B9A0F3351C631B81003F6469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A0F3361C631B81003F6469 /* Build configuration list for PBXNativeTarget "TODOGUSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A0F3371C631B81003F6469 /* Debug */,
+				B9A0F3381C631B81003F6469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A0F3391C631B81003F6469 /* Build configuration list for PBXNativeTarget "TODOGUSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A0F33A1C631B81003F6469 /* Debug */,
+				B9A0F33B1C631B81003F6469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9A0F3031C631B81003F6469 /* Project object */;
+}
